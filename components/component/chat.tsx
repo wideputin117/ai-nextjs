@@ -14,7 +14,7 @@ import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { JSX, SVGProps } from "react";
 
 export function Chat() {
-  const { messages, input, handleInputChange, handleSubmit}=  useChat();
+  const { messages, input, handleInputChange, handleSubmit} = useChat();
   return (
     <div className="grid min-h-screen w-full lg:grid-cols-[280px_1fr]">
        {messages.map(m => (
